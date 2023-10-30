@@ -1,0 +1,122 @@
+/* Downloaded fonts from Google */
+@font-face {
+  font-family: "Young Serif";
+  src: url(./fonts/YoungSerif-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Headings*/
+
+h1, h2, h3, h4, h5 {
+  font-family: "Young Serif";
+  text-align: center;
+  margin: 15px;
+  padding: auto;
+}
+
+h1 {
+  color:blue;
+}
+h2 {
+  color:dodgerblue;
+}
+
+/*Body*/
+
+body {
+  font-family: "Raleway";
+}
+
+span {
+  padding: 15px;
+}
+
+/* div classes */
+
+div.writing {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.center {
+  text-align: center;
+}
+
+div.padding {
+  padding: 30px;
+}
+
+div.orangebackground {
+  background: rgb(232, 229, 224);
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*body border*/
+hr.section {
+  padding: 2px;
+  background-color: blueviolet;
+  margin: 25px;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: aqua;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+/* img effects */
+img.effect {
+  border-radius: 25px;
+  opacity: 1;
+  border-style: double;
+  border-width: thick;
+  border-color: blue;
+  margin-right: 10px;
+}
+
+img.float {
+  float:left;
+}
+
+/* Video managed in YouTube */
+video {
+  border-radius: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+  border-style: double;
+  border-width: thick;
+  border-color: blue;
+}
+
+/* divider line */
