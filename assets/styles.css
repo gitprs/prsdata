@@ -62,6 +62,10 @@ div.orangebackground {
   padding: 5px;
 }
 
+div.rounded {
+  border-radius: 5px;
+}
+
 /*body border*/
 hr.section {
   padding: 2px;
@@ -101,6 +105,7 @@ img.effect {
   border-width: thick;
   border-color: blue;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 img.float {
@@ -119,4 +124,9 @@ iframe {
   border-color: blue;
 }
 
-/* divider line */
+/* Gradient */
+#grad1 {
+  height: 230px;
+  background-color: red;
+  background-image: linear-gradient(blue, green);
+}
