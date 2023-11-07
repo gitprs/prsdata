@@ -15,7 +15,7 @@
 
 /*Headings*/
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5{
   font-family: "Young Serif";
   text-align: center;
   margin: 15px;
@@ -40,6 +40,11 @@ span {
 }
 
 /* div classes */
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 
 div.writing {
   margin-left: 20px;
