@@ -149,3 +149,17 @@ iframe {
 table, th, td {
   border:1px solid black;
 }
+
+/* Animation*/
+
+#myDIV {
+  width: 600px;
+  height: auto;
+  border: 2px solid coral;
+  animation: mymove 5s infinite;
+  padding:.3%;
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
