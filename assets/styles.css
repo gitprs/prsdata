@@ -136,20 +136,6 @@ iframe {
   background-image: linear-gradient(blue, green);
 }
 
-/* Table formatting*/
-
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-
-table, th, td {
-  border:1px solid black;
-}
-
 /* Animation*/
 
 #myDIV {
@@ -163,3 +149,33 @@ table, th, td {
 @keyframes mymove {
   50% {border-color: lightblue;}
 }
+
+/* column styling */
+* {
+  box-sizing: border-box;
+}
+
+/* column styling - create 3 columns floating next to each other */
+.twocolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.threecolumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+/* column styling - clear floats after columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* column styling - responsive layout */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
