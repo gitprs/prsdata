@@ -1,0 +1,93 @@
+; Domain: prsdata.com
+; Exported (y-m-d hh:mm:ss): 2024-02-26 15:12:42
+;
+; This file is intended for use for informational and archival
+; purposes ONLY and MUST be edited before use on a production
+; DNS server.
+;
+; In particular, you must update the SOA record with the correct
+; authoritative name server and contact e-mail address information,
+; and add the correct NS records for the name servers which will
+; be authoritative for this domain.
+;
+; For further information, please consult the BIND documentation
+; located on the following website:
+;
+; http://www.isc.org/
+;
+; And RFC 1035:
+;
+; http://www.ietf.org/rfc/rfc1035.txt
+;
+; Please note that we do NOT offer technical support for any use
+; of this zone data, the BIND name server, or any other third-
+; party DNS software.
+;
+; Use at your own risk.
+
+
+$ORIGIN prsdata.com.
+
+; SOA Record
+@	3600	 IN 	SOA	ns17.domaincontrol.com.	dns.jomax.net. (
+					2024022609
+					28800
+					7200
+					604800
+					3600
+					) 
+
+; A Record
+@	600	 IN 	A	15.197.142.173
+@	600	 IN 	A	3.33.152.147
+bi	3600	 IN 	A	34.213.77.86
+gateway01	3600	 IN 	A	34.214.27.165
+gateway02-1	3600	 IN 	A	50.203.246.98
+gateway02-2	3600	 IN 	A	63.235.151.178
+ldap	600	 IN 	A	20.163.90.82
+
+; TXT Record
+@	3600	 IN 	TXT	"apple-domain-verification=NUsSwLrJDYG0Jznl"
+@	3600	 IN 	TXT	"MS=ms25243737"
+@	1800	 IN 	TXT	"v=spf1 include:spf.protection.outlook.com include:email.freshdesk.com -all"
+fdkey.support	3600	 IN 	TXT	"debe15cde1ffeffbac077677cd7c3e9e"
+_acme-challenge.keepersso	3600	 IN 	TXT	"nsOHnWukXYx9bdYWQhWrY0imriljj8bu2LubtP83Hss"
+_amazonses	3600	 IN 	TXT	"y9ZgWqOcINQRPu49yzTL6w3gkK8+Ih94/nv+aKw1lWo="
+_amazonses.apis	3600	 IN 	TXT	"mKSbcT1gmS0KZnfGKGZg1m671k2ENsQVfBvULl9xRPI="
+_amazonses.fax	3600	 IN 	TXT	"1+EB+6O/kMMJRxtQHllTaF0KlAQGP9jNXOCgp8xJsP4="
+
+; CNAME Record
+1s3._domainkey	3600	 IN 	CNAME	wl613287s3.domainkey.freshemail.io.
+5tisdyx7fic52sdyv2gq7zdkv73ecpno._domainkey.fax	3600	 IN 	CNAME	5tisdyx7fic52sdyv2gq7zdkv73ecpno.dkim.amazonses.com.
+autodiscover	600	 IN 	CNAME	autodiscover.outlook.com.
+bh8go._domainkey	3600	 IN 	CNAME	wl613287s1.domainkey.freshemail.io.
+cmdzfkdpex7bvs76z7pturvuo3vdleig._domainkey.apis	3600	 IN 	CNAME	cmdzfkdpex7bvs76z7pturvuo3vdleig.dkim.amazonses.com.
+enterpriseenrollment	3600	 IN 	CNAME	enterpriseenrollment-s.manage.microsoft.com.
+enterpriseregistration	3600	 IN 	CNAME	enterpriseregistration.windows.net.
+faazn._domainkey	3600	 IN 	CNAME	wl613287s2.domainkey.freshemail.io.
+fwdkim1	3600	 IN 	CNAME	spfmx1.domainkey.freshemail.io.
+googleffffffffcf729ddf	3600	 IN 	CNAME	google.com.
+lqytnyesrm4qjbfwf23qg5lkzkh7e6cv._domainkey	3600	 IN 	CNAME	lqytnyesrm4qjbfwf23qg5lkzkh7e6cv.dkim.amazonses.com.
+mail	3600	 IN 	CNAME	mail.office365.com.
+punkqk27uycgv4iq62gxtjizhpjjfuwi._domainkey	3600	 IN 	CNAME	punkqk27uycgv4iq62gxtjizhpjjfuwi.dkim.amazonses.com.
+selector1._domainkey	3600	 IN 	CNAME	selector1-prsdata-com._domainkey.prsdata.onmicrosoft.com.
+selector2._domainkey	3600	 IN 	CNAME	selector2-prsdata-com._domainkey.prsdata.onmicrosoft.com.
+sk7cjqrww2mhw7czwhnuambwtjc646ao._domainkey.fax	3600	 IN 	CNAME	sk7cjqrww2mhw7czwhnuambwtjc646ao.dkim.amazonses.com.
+support	3600	 IN 	CNAME	fdus-lb26-d1.freshdesk.com.
+uklmuuvzzx6ejqh6ukca6txvbaahyowk._domainkey.apis	3600	 IN 	CNAME	uklmuuvzzx6ejqh6ukca6txvbaahyowk.dkim.amazonses.com.
+vrmshcme46gufmxoi4ilkse4xkuqing6._domainkey.fax	3600	 IN 	CNAME	vrmshcme46gufmxoi4ilkse4xkuqing6.dkim.amazonses.com.
+www	3600	 IN 	CNAME	target.clickfunnels.com.
+zbalvsy7kzqrrtxqmrlj42duzutscuum._domainkey	3600	 IN 	CNAME	zbalvsy7kzqrrtxqmrlj42duzutscuum.dkim.amazonses.com.
+zzgbjejrkwyvvw6dpqcq66kmu6sk4gh2._domainkey.apis	3600	 IN 	CNAME	zzgbjejrkwyvvw6dpqcq66kmu6sk4gh2.dkim.amazonses.com.
+_0e2ca8730e924041dbfa28206d748eec.ubnt	3600	 IN 	CNAME	_cf1e409a5feb9c849f27a2c8325a7ee7.olprtlswtu.acm-validations.aws.
+_domainconnect	3600	 IN 	CNAME	_domainconnect.gd.domaincontrol.com.
+
+; NS Record
+@	3600	 IN 	NS	ns17.domaincontrol.com.
+@	3600	 IN 	NS	ns18.domaincontrol.com.
+
+; MX Record
+@	1800	 IN 	MX	0	prsdata-com.mail.protection.outlook.com.
+apis	3600	 IN 	MX	10	inbound-smtp.us-west-2.amazonaws.com.
+fax	3600	 IN 	MX	10	inbound-smtp.us-west-2.amazonaws.com.
+
