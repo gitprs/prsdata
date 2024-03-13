@@ -131,9 +131,8 @@ iframe {
 
 /* Gradient */
 #grad1 {
-  height: 230px;
-  background-color: red;
-  background-image: linear-gradient(blue, green);
+  height: 275px;
+  background-image: linear-gradient(rgb(202, 88, 7), rgb(3, 70, 22), rgb(89, 2, 113));
 }
 
 /* Animation*/
